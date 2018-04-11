@@ -2,16 +2,25 @@
 	"Light":
 	[
 		{
+			"Destroyer":
+			[
+				{
+					"Name":"test",
+					"Time":10
+				}
+			]
+		},
+		{
+			"Light_Cruiser":
+			[
+				{
+					"Name":"test2",
+					"Time":20
+				}
+			]
 		}
-	]
+	],
 	"Heavy":
 	[
-		{
-		}
-	]
-	"Aircraft":
-	[
-		{
-		}
 	]
 }
