@@ -411,7 +411,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &736469835
 RectTransform:
   m_ObjectHideFlags: 0
@@ -479,7 +479,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &764512936
 RectTransform:
   m_ObjectHideFlags: 0
@@ -632,7 +632,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602854a06ff592742b67f699518fed49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonData: {fileID: 4900000, guid: 14414db8045228b44be8a2f5747e45dc, type: 3}
+  destoyer:
+  - Name: 
+    Rare: 
+    Time: 0
+    image: {fileID: 0}
+  light_cruiser:
+  - Name: 
+    Rare: 
+    Time: 0
+    image: {fileID: 0}
 --- !u!4 &1140162142
 Transform:
   m_ObjectHideFlags: 0
