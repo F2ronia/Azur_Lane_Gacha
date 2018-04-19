@@ -13,7 +13,7 @@ public class Destroyer {
     //
     public int Time;
     //
-    public Image image;
+    public Sprite image;
     //
 }
 
@@ -31,8 +31,8 @@ public class Light_Cruiser{
 }
 
 [System.Serializable]
-public class test
-{
+public class Heavy_Cruiser{
+//
     //
     public string Name;
     //
@@ -45,8 +45,22 @@ public class test
 }
 
 [System.Serializable]
-public class test2
-{
+public class Aircraft_Carrier{
+//
+    //
+    public string Name;
+    //
+    public string Rare;
+    //
+    public int Time;
+    //
+    public Image image;
+    //
+}
+
+[System.Serializable]
+public class Battleship{
+//
     //
     public string Name;
     //
@@ -64,6 +78,14 @@ public class DataManager : MonoBehaviour {
     //
     public Light_Cruiser[] light_cruiser;
     //
-
-
+    public Image img;
+    //
+    public Text text;
+    //
+    public void SettindBg()
+    {
+        img.sprite = destoyer[0].image;
+        text.text = destoyer[0].Name;
+    }
 }
+
